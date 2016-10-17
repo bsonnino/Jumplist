@@ -1,0 +1,15 @@
+﻿<Application x:Class="Jumplist.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+    <JumpList.JumpList>
+        <JumpList ShowFrequentCategory="True" ShowRecentCategory="True">
+            <JumpPath CustomCategory="Arquivos" Path="F:\Documentos\ArqExporta.txt" />
+            <JumpTask CustomCategory="Programas" Title="Notepad" ApplicationPath="notepad.exe" />
+            <JumpTask CustomCategory="Programas" Title="Calculadora" ApplicationPath="calc.exe" />
+        </JumpList>
+    </JumpList.JumpList>
+</Application>
